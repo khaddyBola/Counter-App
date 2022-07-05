@@ -49,10 +49,10 @@ class CounterApp extends React.Component {
                 <div className="container">
                     <h2 className="header-name">{this.state.appOwner}</h2>
                     <h1 className="header-title">counter: {this.state.counter}</h1>
-                    <div className="btn">
-                        <button onClick={this.handleAddOne}>AddOne +1</button>
-                        <button onClick={this.handleMinusOne}>MinusOne -1</button>
-                        <button onClick={this.handleReset}>Reset</button>
+                    <div>
+                        <button className="btn-small" onClick={this.handleAddOne}>AddOne +1</button>
+                        <button className="btn-small" onClick={this.handleMinusOne}>MinusOne -1</button>
+                        <button className="btn-small" onClick={this.handleReset}>Reset</button>
                     </div>
                     
                 </div>

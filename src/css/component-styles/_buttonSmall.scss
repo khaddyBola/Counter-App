@@ -1,0 +1,10 @@
+.btn-small {
+    background-color: $torquise-blue;
+    width: 80%;
+    border: none;
+    padding: $l-size;
+    margin-bottom: $xxl-size;
+    border-bottom: $m-size solid darken($deep-blue, 10);
+    font-size: $l-size;
+    font-weight: 400;
+}
